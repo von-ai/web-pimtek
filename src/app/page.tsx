@@ -1,7 +1,12 @@
 import React from 'react';
+import Navbar from './hooks/Navbar';
 
-function page() {
-  return <main></main>;
-}
+const page = () => {
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
+};
 
 export default page;
