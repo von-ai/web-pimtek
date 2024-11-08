@@ -9,7 +9,7 @@ const About = () => {
     <>
       <section
         className="flex px-32  items-center"
-        style={{ paddingTop: '3rem', paddingBottom: '8rem' }}
+        style={{ paddingTop: '6rem', paddingBottom: '8rem' }}
       >
         <section className="flex-[2] max-w-lg">
           <div>
