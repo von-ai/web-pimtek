@@ -14,7 +14,7 @@ export const metadata = {
   title: 'PIMTEK 2024',
   description: 'Website for Pekan Ilmiah Mahasiswa Teknik by Zuhdi',
   icons: {
-    icon: '/icons/fort_rotterdam.svg',
+    icon: '/icons/pimteklogofix.svg',
   },
 };
 

@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import logo from '../../../public/images/logo pimtek.png';
+import logo from '../../../public/images/pimtek.svg';
 import RegisButton from '../utils/RegisButton';
 
 type NavbarItem = {
@@ -31,7 +31,10 @@ const Navbar = () => {
           >
             <ul className="columns-3 text-primary-blue text-base font-semibold">
               {navbar.map((navItem) => (
-                <li key={navItem.key} className="px-4">
+                <li
+                  key={navItem.key}
+                  className="px-4 hover:text-secondary-yellow"
+                >
                   <a href={navItem.link || '#'}>{navItem.item}</a>
                 </li>
               ))}
