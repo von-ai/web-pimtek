@@ -17,10 +17,11 @@ const About = () => {
               PEKAN ILMIAH MAHASISWA TEKNIK 2024
             </div>
             <div className="mt-4 text-lg leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              vehicula accumsan turpis a efficitur. Fusce arcu quam, cursus at
-              vehicula sit amet, sollicitudin nec sapien. Praesent at aliquam
-              libero. Nullam.
+              Pekan Ilmiah mahasiswa Teknik atau PIMTEK merupakan kegiatan pekan
+              kreatif mahasiswa yang akan menjadi langkah awal untuk
+              mempersiapkan para mahasiswa Teknik Universitas Hasanuddin dalam
+              menyambut Pekan Ilmiah Mahasiswa Nasional (PIMNAS) ke-38 Together
+              We Fight, Together We Win
             </div>
             <div className="mt-6 flex gap-4">
               <RegisButton />

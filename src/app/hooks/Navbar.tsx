@@ -11,7 +11,6 @@ type NavbarItem = {
 };
 
 import navbar from '../utils/NavItem';
-import { text } from 'stream/consumers';
 
 const Navbar = ({ showBackGround = true }) => {
   const [isOpen, setOpen] = useState(false);
