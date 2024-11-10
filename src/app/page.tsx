@@ -4,6 +4,7 @@ import About from './components/About';
 import Compe from './components/Compe';
 import Timeline from './components/Timeline';
 import Hook from './components/Hook';
+import Footer from './components/Footer';
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Compe />
       <Timeline />
       <Hook />
+      <Footer />
     </main>
   );
 };
