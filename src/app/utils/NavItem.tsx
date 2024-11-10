@@ -8,15 +8,17 @@ const navbar: NavItem[] = [
   {
     key: 1,
     item: 'Tentang',
-    link: 'https://www.instagram.com/',
+    link: '#About',
   },
   {
     key: 2,
     item: 'Kompetisi',
+    link: '#Compe',
   },
   {
     key: 3,
     item: 'Timeline',
+    link: '#Timeline',
   },
 ];
 
