@@ -62,7 +62,9 @@ const Navbar = ({ showBackGround = true }) => {
               ))}
             </ul>
           </div>
-          <RegisButton />
+          <div className="hidden md:block">
+            <RegisButton />
+          </div>
         </div>
       </nav>
     </>
